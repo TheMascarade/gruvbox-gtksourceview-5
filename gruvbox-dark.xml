@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright 2022 themascarade
+
+  GtkSourceView is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 2.1 of the License, or (at your option) any later version.
+
+  GtkSourceView is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with this library; if not, see <http://www.gnu.org/licenses/>.
+
+-->
+<style-scheme id="gruvbox-dark" _name="Gruvbox" version="1.0">
+  <author>themascarade</author>
+  <_description>Style Scheme generated with poor decisions</_description>
+
+  <metadata>
+    <property name="variant">dark</property>
+    <property name="light-variant">gruvbox-light</property>
+  </metadata>
+
+  <!-- Named Colors -->
+  <color name="(100, -) faded_green"            value="#79740E"/>
+  <color name="(106, 2) neutral_green"          value="#98971A"/>
+  <color name="(108, 14) bright_aqua"           value="#8EC07C"/>
+  <color name="(109, 12) bright_blue"           value="#83A598"/>
+  <color name="(124, 1) neutral_red"            value="#CC241D"/>
+  <color name="(130, -) faded_orange"           value="#AF3A03"/>
+  <color name="(132, 5) neutral_purple"         value="#B16286"/>
+  <color name="(136, -) faded_yellow"           value="#B57614"/>
+  <color name="(142, 10) bright_green"          value="#B8BB26"/>
+  <color name="(166, -) neutral_orange"         value="#D65D0E"/>
+  <color name="(167, 9) bright_red"             value="#FB4934"/>
+  <color name="(172, 3) neutral_yellow"         value="#D79921"/>
+  <color name="(175, 13) bright_purple"         value="#D3869B"/>
+  <color name="(208, -) bright_orange"          value="#FE8019"/>
+  <color name="(214, 11) bright_yellow"         value="#FABD2F"/>
+  <color name="(223, 15) fg1/light1/bg1"        value="#EBDBB2"/>
+  <color name="(229, -) fg0/light0/bg0"         value="#FBF1C7"/>
+  <color name="(234, 0) bg0_h/dark0_hard"       value="#1D2021"/>
+  <color name="(235, 0) bg0/dark0/fg0"          value="#282828"/>
+  <color name="(236, -) bg0_s/dark0_soft"       value="#32302F"/>
+  <color name="(237, -) bg1/dark1/fg1"          value="#3C3836"/>
+  <color name="(239, -) bg2/dark2/fg2"          value="#504945"/>
+  <color name="(24, -) faded_blue"              value="#076678"/>
+  <color name="(241, -) bg3/dark3/fg3"          value="#665C54"/>
+  <color name="(243, -) bg3/dark4/fg4"          value="#7C6F64"/>
+  <color name="(245, 8) gray/gray_245/gray_246" value="#928374"/>
+  <color name="(246, -) fg4/light4/bg4"         value="#A89984"/>
+  <color name="(246, 7) gray/light4/fg4/bg4"    value="#A89984"/>
+  <color name="(248, -) fg3/light3/bg3"         value="#BDAE93"/>
+  <color name="(250, -) fg2/light2/bg2"         value="#D5C4A1"/>
+  <color name="(66, -) faded_aqua"              value="#356A46"/>
+  <color name="(66, 4) neutral_blue"            value="#458588"/>
+  <color name="(72, 6) neutral_aqua"            value="#689D6A"/>
+  <color name="(88, -) faded_red"               value="#9D0006"/>
+  <color name="(96, -) faded_purple"            value="#8F3F71"/>
+
+  <!-- Global Styles -->
+  <style name="background-pattern"              background="(235, 0) bg0/dark0/fg0"/>
+  <style name="bracket-match"                   foreground="(167, 9) bright_red" bold="false" weight="semibold" italic="false" underline="none"/>
+  <style name="bracket-mismatch"                foreground="#rgba(0,0,0,0)" weight="semibold"/>
+  <style name="current-line"                    background="(235, 0) bg0/dark0/fg0"/>
+  <style name="current-line-number"             background="(235, 0) bg0/dark0/fg0" foreground="(132, 5) neutral_purple" bold="true"/>
+  <style name="cursor"                          foreground="(229, -) fg0/light0/bg0"/>
+  <style name="draw-spaces"                     foreground="(241, -) bg3/dark3/fg3"/>
+  <style name="line-numbers"                    background="#rgba(191,64,64,0)" foreground="(132, 5) neutral_purple"/>
+  <style name="line-numbers-border"             background="(241, -) bg3/dark3/fg3"/>
+  <style name="map-overlay"                     background="(229, -) fg0/light0/bg0"/>
+  <style name="right-margin"                    background="(236, -) bg0_s/dark0_soft"/>
+  <style name="secondary-cursor"                foreground="#rgba(191,64,64,0)"/>
+  <style name="selection"                       background="#rgba(131,165,152,0.336667)"/>
+  <style name="snippet-focus"                   background="(66, -) faded_aqua"/>
+  <style name="text"                            background="(234, 0) bg0_h/dark0_hard" foreground="(229, -) fg0/light0/bg0"/>
+
+  <!-- Defaults -->
+  <style name="def:boolean"                     foreground="(72, 6) neutral_aqua"/>
+  <style name="def:builtin"                     foreground="(166, -) neutral_orange"/>
+  <style name="def:comment"                     foreground="(246, 7) gray/light4/fg4/bg4"/>
+  <style name="def:constant"                    foreground="(166, -) neutral_orange" weight="semibold" underline="none"/>
+  <style name="def:deletion"                    foreground="(167, 9) bright_red" strikethrough="true"/>
+  <style name="def:doc-comment"                 foreground="(246, 7) gray/light4/fg4/bg4"/>
+  <style name="def:doc-comment-element"         foreground="(246, 7) gray/light4/fg4/bg4" bold="true"/>
+  <style name="def:emphasis"                    bold="false" italic="true"/>
+  <style name="def:function"                    foreground="(66, 4) neutral_blue"/>
+  <style name="def:heading"                     foreground="(132, 5) neutral_purple" bold="true" scale="1.2000000000000002"/>
+  <style name="def:identifier"                  foreground="(132, 5) neutral_purple" weight="medium"/>
+  <style name="def:inline-code"                 foreground="(106, 2) neutral_green"/>
+  <style name="def:keyword"                     foreground="(167, 9) bright_red" weight="medium" scale="1"/>
+  <style name="def:link-destination"            foreground="(66, 4) neutral_blue" underline="single" underline-color="(66, 4) neutral_blue"/>
+  <style name="def:link-text"                   foreground="(66, 4) neutral_blue" underline="single"/>
+  <style name="def:list-marker"                 foreground="(66, 4) neutral_blue" weight="semibold"/>
+  <style name="def:net-address"                 foreground="(109, 12) bright_blue" underline="single" underline-color="(109, 12) bright_blue"/>
+  <style name="def:note"                        foreground="(208, -) bright_orange"/>
+  <style name="def:operator"                    foreground="(132, 5) neutral_purple"/>
+  <style name="def:preformatted-section"        foreground="(106, 2) neutral_green"/>
+  <style name="def:preprocessor"                foreground="(132, 5) neutral_purple" bold="true"/>
+  <style name="def:reserved"                    foreground="(132, 5) neutral_purple"/>
+  <style name="def:special-char"                foreground="(142, 10) bright_green"/>
+  <style name="def:statement"                   foreground="(66, 4) neutral_blue" bold="true"/>
+  <style name="def:string"                      foreground="(109, 12) bright_blue"/>
+  <style name="def:strong-emphasis"             bold="true"/>
+  <style name="def:thematic-break"              foreground="(248, -) fg3/light3/bg3"/>
+  <style name="def:type"                        foreground="(106, 2) neutral_green" bold="true" underline="none" underline-color="#rgba(0,0,0,0)" scale="1.0999999999999999"/>
+  <style name="def:underlined"                  foreground="(66, 4) neutral_blue" underline="single" underline-color="(66, 4) neutral_blue"/>
+  <style name="def:warning"                     foreground="(167, 9) bright_red"/>
+
+  <!-- HTML -->
+  <style name="html:attrib-value"               foreground="(132, 5) neutral_purple"/>
+
+  <!-- Markdown -->
+  <style name="markdown:blockquote"             italic="true"/>
+  <style name="markdown:code"                   foreground="(142, 10) bright_green"/>
+
+</style-scheme>
